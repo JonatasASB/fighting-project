@@ -30,13 +30,23 @@ strong {
 .bar {
     height: inherit;
     width: 10%;
-    background-color: chocolate;
+    background-color: green;
     border-radius: inherit;
+}
+.attack-button {
+    padding: 3px;
+    background-color: #ddd;
+    color: #000;
+    border-radius: 2px;
+    margin: 5px 0 0 5px
 }
 .log {
     width: 1000px;
     margin: 50px auto;
     height: 200px;
     overflow-y: scroll;
-    border: 1px solid #fff;
+    border: 1px dotted #fff;
+}
+.log li {
+    color: #fff;
 }
