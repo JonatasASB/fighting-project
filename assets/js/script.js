@@ -1,5 +1,5 @@
 
-let char = new Sorceres('Jonatas')
+let char = new Knight('Jonatas')
 
 let monster = new LittleMonster();
 
