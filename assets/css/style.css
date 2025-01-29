@@ -3,6 +3,11 @@
     padding: 0;
     outline: none;
     border: 0;
+    font-family: sans-serif;
+}
+body {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .fight-area {
     width: 1000px;
@@ -14,9 +19,12 @@
 #char, #monster {
     flex: 1;
 }
+strong {
+    color: #fff;
+}
 .life-bar {
     height: 20px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 20px;
 }
 .bar {
@@ -27,8 +35,8 @@
 }
 .log {
     width: 1000px;
-    margin: auto;
+    margin: 50px auto;
     height: 200px;
     overflow-y: scroll;
-    border: 1px dotted #000;
+    border: 1px solid #fff;
 }
