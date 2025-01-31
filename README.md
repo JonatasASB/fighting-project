@@ -1,2 +1,2 @@
 # fighting-project
-Project designed to train object-oriented programming in JavaScript
+Project developed to train object-oriented programming with classes in JavaScript
